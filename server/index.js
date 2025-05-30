@@ -25,8 +25,8 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    // origin: "https://social-media-client-a88x.onrender.com",
-    origin: "http://localhost:3000",
+    origin: "https://zenshare-ruby.vercel.app/login",
+    // origin: "http://localhost:3000",
   })
 );
 
