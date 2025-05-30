@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://zenshare-server.vercel.app/auth/login",
+    origin: "https://zenshare-ruby.vercel.app/login",
     // origin: "http://localhost:3000",
   })
 );
